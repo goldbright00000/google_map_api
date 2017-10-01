@@ -1,0 +1,465 @@
+/*
+p,h1,h2,h3,h4,h5{
+  color:#777;
+}
+*/
+h1{
+  font-weight:400;
+}
+@media (max-width: 1000px) {
+  .h1er {
+    display: flex;
+    flex-direction: column
+  }
+  .h1er > div:first-of-type {
+    order: 0
+  }
+}
+#map{
+  height:300px;
+}
+.btn {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.nopad{
+	padding:none !important;
+}
+.vpmg{
+	min-height:100vh !important;
+}
+.whitetext
+{
+	color:white;
+}
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+.extrasmall
+{
+	font-size:9px;
+	margin:0 !important;
+}
+.address>p
+{
+	font-size:12px;
+}
+.fullimg{
+max-width:290px !important;
+max-height:260px !important;
+height:260px !important;
+}
+
+.doctorinfo{
+	color:black;
+}
+
+.skeerow h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 2.7em;
+  font-weight: 100;
+  line-height: 1em;
+  letter-spacing: 0.14em;
+  color: #1d6152;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: -0.7em;
+  padding: 0.65em 0 0.65em 0.7em;
+}
+
+.herolander{
+background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align:center;
+}
+
+.navset{
+}
+
+.herolander {
+  color:white;
+}
+.new-test-consult{
+  color:black;
+  background:#ffffff;
+}
+.locandcontact{
+  background: #0082c8;
+}
+
+
+.jumbotron p{
+	font-family:Raleway;
+}
+
+.setbg2{
+
+background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #283048, #859398); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #283048, #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+.circleoff{
+
+
+max-height:100px;
+margin-left:-40px !important;
+margin-top:-10px;
+}
+
+
+
+.freeconsult p {
+	font-size:1.1rem;
+}
+.buttonstyle{
+	font-family:Montserrat, sans-serif !important;
+	line-height:125%;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+}
+
+.navbuttonstyle{
+  font-family:Montserrat, sans-serif !important;
+  line-height:100%;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.consult-head button:hover{
+  background-color: #fdfdfd;
+  color:#28a745;
+}
+.freeconsult button:hover{
+	background-color: #fdfdfd;
+	color:#28a745;
+}
+
+
+.call-nav button{
+  background:#f0f0f0;
+  color:black;
+  border-color:black;
+}
+
+.consult-nav button{
+  background: #f0f0f0;
+  color:#25557d;
+  border-color:#25557d;
+}
+.consult-nav button:hover{
+    background-color: #25557d;
+  color:#f0f0f0;
+}
+.call-nav button:hover{
+  background-color:black;
+  color:#f0f0f0;
+}
+
+.call-head button{
+  border:none !important;
+}
+.call-head button:hover{
+  background-color:#fdfdfd;
+  color:#727b84;
+
+}
+.fullheight{
+  height:100%;
+}
+
+.fiftypheight{
+  height:50%;
+}
+
+.consult-head button{
+  border:none !important;
+}
+
+
+
+.freeconsult label {
+
+}
+
+.heightfix{
+	height:inherit !important;
+}
+
+.boxs-md {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.boxs-lt:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.boxs-lt {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.size-increase{
+	width:200%;
+	height:200%;
+}
+
+
+.bgsecond{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: #A7AFC2; /* Old browsers */
+background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+
+}
+.newbg{
+	/* background: #757F9A;   fallback for old browsers */
+/* background: -webkit-linear-gradient(to top, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to top, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background:#ffffff;
+}
+.whitetext a
+{
+	color:white;
+}
+.bottombutton{
+background:transparent;
+color: #ffffff !important;
+border-color:#ffffff !important;
+font-size:1.5rem !important;
+
+}
+
+.bottombutton:hover{
+color:#0082c8 !important;
+background:#FFFFFF;
+}
+
+.halfize{
+	width:50% !important;
+}
+
+#Container {
+    width: 500px;
+    height: 600px;
+    position: relative;
+    background: #ccc
+}
+
+#TheElement {
+    width: 8em;
+    height: 8em;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:50%;
+
+}
+
+
+.paddingforbox{
+  padding-left:5%;
+  padding-right:5%;
+
+}
+mark{
+  background-color:#1981c4 !important;
+  color: #FFFFFF;
+
+}
+html, body {width: 100%;
+overflow-x: hidden !important;}
+
+.herolander-lead{
+  font-size:25px !important;
+}
+
+.thefold{
+
+
+}
+  .imgresizer {
+    width:220px;
+    height:200px;
+  }
+
+@media (max-width: 576px)
+{
+  .circleoff{
+    max-height:120px;
+margin-left:-50px !important;
+margin-top:-10px;
+  }
+} 
+@media (min-width: 576px) {
+
+.herolander-lead{
+  font-size:28px !important;
+}
+  .imgresizer {
+    width:300px;
+    height:200px;
+  }
+}
+
+
+.secondfold{
+  background:#ffffff;
+}
+
+
+
+@media (min-width: 768px) {
+  
+  .imgresizer {
+    width:400px;
+    height:350px;
+  }
+   .herolander{
+    text-align:inherit;
+  }
+}
+
+
+
+
+
+@media (min-width: 992px) {
+ .extrapad{
+    padding-right: 5rem !important;
+  padding-left: 5rem !important;
+  }
+  .imgresizer {
+height:350px;
+width:450px;
+  }
+  .responsive-padding{
+    padding:51px;
+  }
+.herolander-lead{
+  font-size:30px;
+}
+}
+
+@media (min-width: 1200px) {
+  .circleoff{
+
+z-index:-1;
+max-height:120px;
+margin-left:-60px !important;
+margin-top:-10px;
+}
+}
+input,select{
+  max-width:380px;
+}
+.herolander h1{
+      font-weight:400 !important;
+  line-height:1.1;
+  }
+
+
+  .imgresizer {
+height:400px;
+width:500px;
+  } 
+.seperat0r{
+  border-top: 1px #A7AFC2 solid !important;
+}
+
+.secondfold h2{
+  font-size:40px;
+  font-weight:400;
+  line-height:1.1;
+}
+.doctornames h2{
+  font-weight:200 !important;
+}
+.secondfold p{
+font-size:22px;
+}
+.secondfold p.lead{
+  font-size:30px;
+}
+.secondfold img{
+}
+
+.extrapad{
+    padding-right: 0rem;
+  padding-left: 0rem;
+  }
+
+.features{
+  border-radius:0 !important;
+}
+
+
+/*Google map's css*/
+
+#map {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  max-width: none;
+}
+#map img {
+  max-width: none !important;
+}
+.gm-style-iw {
+  width: 280px !important;
+  top: 15px !important;
+  left: 0px !important;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+  border: 1px solid rgba(72, 181, 233, 0.6);
+  border-radius: 2px 2px 10px 10px;
+}
+#iw-container {
+  margin-bottom: 10px;
+  width: 280px;
+}
+#iw-container .iw-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #48b5e9;
+  color: white;
+  margin: 0;
+  border-radius: 2px 2px 0 0;
+}
+#iw-container .iw-content {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-right: 1px;
+  padding: 15px 5px 20px 15px;
+  max-height: 140px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.iw-content img {
+  float: right;
+  margin: 0 5px 5px 10px; 
+}
+.iw-subTitle {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.iw-bottom-gradient {
+  position: absolute;
+  width: 326px;
+  height: 25px;
+  bottom: 10px;
+  right: 18px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
